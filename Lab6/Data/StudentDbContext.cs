@@ -18,7 +18,7 @@ namespace Lab6.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Student>().ToTable("Student");
+            modelBuilder.Entity<Student>().ToTable("StudentDB");
         }
 
     }

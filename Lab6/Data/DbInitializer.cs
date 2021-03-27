@@ -31,5 +31,4 @@ namespace Lab6.Data
             context.SaveChanges();
         }
     }
-
 }
